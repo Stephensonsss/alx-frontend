@@ -1,0 +1,63 @@
+/**
+ * Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+ */
+
+/* Paste normalize.css contents here */
+
+/* Universal box sizing rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin: calc(3 * var(--root-element)) 0 0 0;
+  --nav-item-link-hover: var(--color-primary);
+}
+
+/* Targeting .navbar-menu class */
+.navbar-menu {
+  float: right;
+}
+
+/* Targeting .nav class */
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Targeting .nav-item class in .nav */
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+/* Targeting .nav-link class in .nav */
+.nav .nav-link {
+  display: block;
+  padding: calc(0.5 * var(--root-element)) var(--root-element);
+}
+
+/* Hover state for .nav .nav-link */
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+

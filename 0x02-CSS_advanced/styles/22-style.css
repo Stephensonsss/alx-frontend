@@ -1,0 +1,7 @@
+/* Styling for data-section-theme="dark" */
+[data-section-theme="dark"] {
+  --text-color: #ffffff; /* Redefine text-color to color-white */
+  --section-title-color: #ffffff; /* Redefine section-title-color to color-white */
+  background: var(--color-black); /* Set background to color-black */
+}
+

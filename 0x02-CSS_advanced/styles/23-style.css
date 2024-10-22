@@ -1,0 +1,15 @@
+/* Styling for footer-address class */
+.footer-address {
+  color: var(--text-color); /* Set text color using text-color custom property */
+}
+
+/* Styling for social-link class */
+.social-link {
+  display: block; /* Render as block element */
+}
+
+/* Styling for svg children inside .social-link */
+.social-link svg {
+  fill: var(--text-color); /* Fill SVG children with text-color custom property */
+}
+

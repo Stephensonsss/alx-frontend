@@ -1,0 +1,28 @@
+/**
+ * Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+ */
+
+/* Paste normalize.css contents here */
+
+/* Your custom CSS starts here */
+
+/* Targeting anchor elements with hyperlinks */
+a[href] {
+  /* Your styles for anchor elements containing hyperlinks */
+}
+
+/* Targeting visited state for the link */
+a[href]:visited {
+  font-style: italic;
+}
+
+/* Targeting hover state for the link */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* Targeting active state for the link */
+a[href]:active {
+  background-color: var(--color-light-grey);
+}
+

@@ -1,0 +1,31 @@
+/* Custom properties */
+:root {
+  /* Define your custom properties here */
+  --header-padding: 4rem 0 0;
+  --header-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
+}
+
+/* Header styles */
+.header {
+  padding: var(--header-padding); /* Use the value from custom property */
+}
+
+/* Header logo styles */
+.header-logo {
+  position: var(--header-logo-position); /* Use the value from custom property */
+}
+
+/* Links inside header logo styles */
+.header-logo a {
+  display: var(--header-logo-link-display); /* Use the value from custom property */
+  position: var(--header-logo-link-position); /* Use the value from custom property */
+  top: var(--header-logo-link-top); /* Use the value from custom property */
+  left: var(--header-logo-link-left); /* Use the value from custom property */
+}
+
+/* Ensure specificity where needed */
+

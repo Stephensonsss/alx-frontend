@@ -1,0 +1,7 @@
+/* Targeting .row class and creating a new row */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+

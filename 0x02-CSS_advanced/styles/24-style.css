@@ -1,0 +1,22 @@
+/* Target card-title inside card-services */
+.card-services .card-title {
+  margin: 0; /* Remove all margins */
+}
+
+/* Target a inside card-services */
+.card-services a {
+  display: block; /* Render as block-level element */
+  padding: 2rem; /* Set padding to 2x the root element (adjust as per your design) */
+  background-color: var(--color-light-grey); /* Set background color using color-light-grey variable */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+
+  /* Remove text decoration */
+  text-decoration: none;
+}
+
+/* Hover state for a inside card-services */
+.card-services a:hover {
+  color: var(--color-white); /* Set text color to color-white on hover */
+  background-color: var(--color-primary); /* Set background color to color-primary on hover */
+}
+
